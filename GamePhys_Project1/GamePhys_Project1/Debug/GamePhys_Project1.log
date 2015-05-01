@@ -1,0 +1,33 @@
+﻿Build started 2/18/2015 3:37:42 PM.
+     1>Project "C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\GamePhys_Project1\GamePhys_Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /I"..\..\OpenGL\glew-1.11.0\include" /I..\..\OpenGL\freeglut\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Planet.cpp
+         Planet.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\Debug\GamePhys_Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"lib-msvc120" /LIBPATH:..\..\OpenGL\freeglut\lib /LIBPATH:"..\..\OpenGL\glew-1.11.0\lib" glew32.lib freeglut.lib glfw3dll.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\Debug\GamePhys_Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\Debug\GamePhys_Project1.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Color.obj
+         Debug\Cube.obj
+         Debug\DragGenerator.obj
+         Debug\ForceGenerator.obj
+         Debug\Game.obj
+         Debug\Globals.obj
+         Debug\GraphicsSystem.obj
+         Debug\GravityForceGenerator.obj
+         Debug\InputManager.obj
+         Debug\Main.obj
+         Debug\Particle.obj
+         Debug\ParticleForceRegistry.obj
+         Debug\ParticleSystem.obj
+         Debug\Planet.obj
+         Debug\PlanetaryGravityGenerator.obj
+         Debug\Shape.obj
+         Debug\Text.obj
+         Debug\Transform.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         GamePhys_Project1.vcxproj -> C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\Debug\GamePhys_Project1.exe
+     1>Done Building Project "C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\GamePhys_Project1\GamePhys_Project1\GamePhys_Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83

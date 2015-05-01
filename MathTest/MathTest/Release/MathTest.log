@@ -1,0 +1,51 @@
+﻿Build started 4/30/2015 11:26:16 PM.
+     1>Project "C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\MathTest\MathTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /I"..\..\OpenGL\glew-1.11.0\include" /I..\..\OpenGL\freeglut\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp CollisionDetection.cpp Color.cpp Contact.cpp CollisionPrimitive.cpp ContactResolver.cpp ForceGenerator.cpp Game.cpp Main.cpp Matrix.cpp Quaternion.cpp RigidBody.cpp RigidBodyForceRegistry.cpp Vector.cpp World.cpp
+         Camera.cpp
+         CollisionDetection.cpp
+         Color.cpp
+         Contact.cpp
+         CollisionPrimitive.cpp
+     1>CollisionPrimitive.cpp(72): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>CollisionPrimitive.cpp(83): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>CollisionPrimitive.cpp(85): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>CollisionPrimitive.cpp(92): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>CollisionPrimitive.cpp(93): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>CollisionPrimitive.cpp(94): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>CollisionPrimitive.cpp(149): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>CollisionPrimitive.cpp(151): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+         ContactResolver.cpp
+         ForceGenerator.cpp
+         Game.cpp
+         Main.cpp
+         Matrix.cpp
+         Quaternion.cpp
+         RigidBody.cpp
+         RigidBodyForceRegistry.cpp
+         Vector.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\Release\MathTest.exe" /NOLOGO /LIBPATH:"lib-msvc120" /LIBPATH:..\..\OpenGL\freeglut\lib /LIBPATH:"..\..\OpenGL\glew-1.11.0\lib" glew32.lib freeglut.lib glfw3dll.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\Release\MathTest.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\Release\MathTest.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\CollisionDetection.obj
+         Release\Color.obj
+         Release\Contact.obj
+         Release\CollisionPrimitive.obj
+         Release\ContactResolver.obj
+         Release\ForceGenerator.obj
+         Release\Game.obj
+         Release\Main.obj
+         Release\Matrix.obj
+         Release\Quaternion.obj
+         Release\RigidBody.obj
+         Release\RigidBodyForceRegistry.obj
+         Release\Vector.obj
+         Release\World.obj
+         Generating code
+         Finished generating code
+         MathTest.vcxproj -> C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\Release\MathTest.exe
+     1>Done Building Project "C:\Users\Chris Stafford\Documents\Visual Studio 2013\Projects\Game Physics\MathTest\MathTest\MathTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.36
